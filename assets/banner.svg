@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d0d0d"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00b4d8"/>
+      <stop offset="100%" style="stop-color:#0077b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="200" fill="url(#bg)" rx="12"/>
+  <rect x="0" y="0" width="800" height="4" fill="url(#accent)"/>
+  <text x="40" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="36" font-weight="800" fill="#ffffff">IGNOU Grade Card Bot</text>
+  <text x="40" y="115" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="400" fill="#a0a0b8">Check assignment status and grade cards instantly</text>
+  <text x="40" y="145" font-family="system-ui, -apple-system, sans-serif" font-size="14" fill="#606080">IGNOU SMS - Grade Card - Marks Summary</text>
+  <rect x="40" y="160" width="120" height="28" rx="4" fill="#0077b6"/>
+  <text x="100" y="179" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Telegram Bot</text>
+  <rect x="175" y="160" width="110" height="28" rx="4" fill="#00b4d8"/>
+  <text x="230" y="179" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">Python 3.8+</text>
+</svg>
