@@ -28,7 +28,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "🎓 *IGNOU Grade Card & Assignment Bot*\n\n"
         "Main aapki IGNOU assignment status aur grade card dono bata sakta hun!\n\n"
         "*Format:*\n"
-        "`/check 2453701204 BAM`\n\n"
+        "`/check 1234567890 BAM`\n\n"
         "Bas enrollment number aur program code bhejo!",
         parse_mode='Markdown'
     )
@@ -38,7 +38,7 @@ async def check(update: Update, context: ContextTypes.DEFAULT_TYPE):
         parts = update.message.text.split()
         if len(parts) < 3:
             await update.message.reply_text(
-                "❌ *Galat Format!*\nSahi format: `/check 2453701204 BAM`",
+                "❌ *Galat Format!*\nSahi format: `/check 1234567890 BAM`",
                 parse_mode='Markdown'
             )
             return
@@ -274,7 +274,7 @@ def format_output(enrollment, program, name, assignments, gc_data):
 
 async def handle_msg(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "Format: `/check 2453701204 BAM`",
+        "Format: `/check 1234567890 BAM`",
         parse_mode='Markdown'
     )
 
